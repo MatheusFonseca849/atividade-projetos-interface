@@ -1,0 +1,29 @@
+header{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 16px;
+    background-color: grey;
+
+}
+
+header img{
+
+    width: 100px;
+    height: 80px;
+
+}
+
+h2{
+
+    font-size: 28px;
+    color: inherit;
+
+}
+
+.container img{
+
+    width: 256px;
+    height: 180px;
+
+}
