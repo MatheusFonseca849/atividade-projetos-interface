@@ -14,16 +14,112 @@ header img{
 
 }
 
-h2{
+h1{
 
+    color: #f9f9f9;
     font-size: 28px;
+    font-weight: 800;
+
+}
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin: 12px 0;
+
+}
+
+.subContainer{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container h2{
+
+    font-size: 32px;
     color: inherit;
 
 }
 
 .container img{
 
-    width: 256px;
-    height: 180px;
+    width: fit-content;
+    height: fit-content;
+
+}
+
+.container p {
+
+    font-size: 18px;
+
+}
+
+.formContainer{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16px;
+
+}
+
+.formContainer form{
+
+    border: 1px solid #0f0f0f;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    border-radius: 8px;
+
+}
+
+.formContainer h2{
+
+    font-size: 26px;
+    font-weight: 700;
+
+}
+
+.formContainer label{
+
+    font-size: 18px;
+    font-weight: 700;
+
+
+}
+
+.formContainer input{
+
+    padding: 4px 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+
+}
+
+.formContainer button {
+
+    padding: 8px;
+    text-align: center;
+    width: fit-content;
+    background-color: blue;
+    color: #f9f9f9;
+    border-radius: 4px;
+
+}
+
+.videoContainer{
+
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 16px;
 
 }
